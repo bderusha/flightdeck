@@ -1,5 +1,7 @@
-from flightdeck import App, BaseAgent
-from flightdeck.utils import find_plugins, select_plugin, fill_slots
+from flightdeck.agents import BaseAgent
+from flightdeck.core import App
+from flightdeck.core.workflows import task
+
 
 class BaseAgent():
     def __init__(self, context, steps):
